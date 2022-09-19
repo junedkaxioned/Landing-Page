@@ -97,25 +97,22 @@ li {
 /* for wrapper */
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 91%; 
   margin: 0 auto;
 }
 
-/*=================================
-  Header styling starts here
-=================================*/
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
 
 /*=================================
   main styling starts here
 =================================*/
 
+.text-indent { text-indent: -9999px;}
 
+
+.subscribe-section {
+  padding: 100px 0px;
+  background-color: #3887ED;
+}
 
 /*=================================
   main styling ends here
@@ -125,6 +122,59 @@ li {
   footer styling starts here
 =================================*/ 
 
+footer {
+  padding: 115px 0px 100px 0px;
+  background-color: #fff;
+  text-align: center;
+}
+
+footer p {
+  padding: 7px 0px;
+  color: #8A8686;
+  font-size: 14px;
+}
+
+.footer-links { color: #3887ED; }
+
+.facebook::after {
+  content: "\f09a";
+  padding: 30px 22px; 
+  color: #3887ED;
+  font-family: "FontAwesome";
+  font-size: 32px;
+  float: right;
+  text-indent: 0;
+}
+
+.twitter::after {
+  content: "\f099";
+  padding: 30px 22px; 
+  color: #3887ED;
+  font-family: "FontAwesome";
+  font-size: 32px;
+  float: right;
+  text-indent: 0;
+}
+
+.linkedin::after {
+  content: "\f0e1";
+  padding: 30px 22px; 
+  color: #3887ED;
+  font-family: "FontAwesome";
+  font-size: 32px;
+  float: right;
+  text-indent: 0;
+}
+
+.apple::after {
+  content: "\f179";
+  padding: 30px 22px; 
+  color: #3887ED;
+  font-family: "FontAwesome";
+  font-size: 32px;
+  float: right;
+  text-indent: 0;
+}
 
 
  /*=================================

@@ -7,13 +7,87 @@
    http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain) ============================================ */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
-figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -23,16 +97,29 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
 /* Force scrollbar */
-html { overflow-y: scroll; }
+html {
+  overflow-y: scroll;
+}
 
 /* Align radios and text inputs with their label */
-input[type='radio'] { vertical-align: text-bottom; }
+input[type='radio'] {
+  vertical-align: text-bottom;
+}
 
 /* Hand cursor on clickable input elements */
 label,
@@ -48,7 +135,9 @@ strong {
   font-size: inherit;
 }
 
-em { font-style: italic; }
+em {
+  font-style: italic;
+}
 
 img {
   width: 100%;
@@ -64,8 +153,13 @@ sup {
   line-height: 0;
 }
 
-sup { top: -.7em; }
-sub { bottom: -.25em; }
+sup {
+  top: -.7em;
+}
+
+sub {
+  bottom: -.25em;
+}
 
 /* 1.2. Clear Fix ========================== */
 
@@ -75,8 +169,13 @@ sub { bottom: -.25em; }
   content: " ";
 }
 
-.cf:after { clear: both; }
-.cf { *zoom: 1; }
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
 
 /*for all*/
 body {
@@ -84,9 +183,9 @@ body {
   font-family: sans-serif;
 }
 
-a { 
+a {
   display: inline-block;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 li {
@@ -97,7 +196,7 @@ li {
 /* for wrapper */
 .wrapper {
   max-width: 1360px;
-  width: 90%; 
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -106,9 +205,9 @@ li {
   main styling starts here
 =================================*/
 
-.text-indent { text-indent: -9999px;}
+.text-indent { text-indent: -9999px; }
 
-.banner-section{
+.banner-section {
   padding: 300px 30px;
   position: relative;
   background-color: #48DEFE;
@@ -124,7 +223,7 @@ li {
   text-transform: uppercase;
 }
 
-.banner-content h2 { 
+.banner-content h2 {
   padding: 10px 0px 36px;
   color: #fff;
   font-size: 25px;
@@ -174,9 +273,9 @@ li {
   display: flex;
   flex-direction: column;
 }
-  
-.keep-it-simple, 
-.pixel-perfect, 
+
+.keep-it-simple,
+.pixel-perfect,
 .beautiful-design {
   padding: 390px 0px 190px 0px;
   border-bottom: 2px solid #F2F2F2;
@@ -188,13 +287,13 @@ li {
 
 .content-reverse { flex-direction: row-reverse; }
 
-.simple-content, 
-.beautiful-content, 
-.pixel-perfect-content { 
+.simple-content,
+.beautiful-content,
+.pixel-perfect-content {
   flex-basis: 49%;
 }
 
-.simple-content p, 
+.simple-content p,
 .beautiful-content p,
 .pixel-perfect p {
   padding: 15px 0px;
@@ -261,12 +360,12 @@ li {
   border-radius: 50%;
 }
 
-.name {
+.client span {
   color: #888888;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 2px;  
+  letter-spacing: 2px;
 }
 
 .star::before {
@@ -291,7 +390,7 @@ li {
 }
 
 .client p::before,
-.client p::after  {
+.client p::after {
   content: '"';
 }
 
@@ -315,7 +414,7 @@ li {
   text-align: center;
 }
 
-.feature-section .wrapper > p {
+.feature-section .wrapper>p {
   padding: 0px 220px 40px 220px;
   color: #AA9B9F;
   font-size: 16px;
@@ -389,14 +488,14 @@ li {
   text-indent: 0;
 }
 
-.feature > h4 {
+.feature>h4 {
   padding: 45px 0px 15px 0px;
   font-size: 16px;
   color: #000000;
   text-transform: uppercase;
 }
 
-.feature > p {
+.feature>p {
   padding: 0px 30px;
   color: #AA9B9F;
   line-height: 1.7;
@@ -454,7 +553,7 @@ form {
 
 /*=================================
   footer styling starts here
-=================================*/ 
+=================================*/
 
 footer {
   padding: 110px 0px 100px 0px;
@@ -482,7 +581,7 @@ footer p {
 
 .twitter::after {
   content: "\f099";
-  padding: 30px 20px; 
+  padding: 30px 20px;
   color: #3887ED;
   font-family: "FontAwesome";
   font-size: 32px;
@@ -492,7 +591,7 @@ footer p {
 
 .linkedin::after {
   content: "\f0e1";
-  padding: 30px 20px; 
+  padding: 30px 20px;
   color: #3887ED;
   font-family: "FontAwesome";
   font-size: 32px;
@@ -502,7 +601,7 @@ footer p {
 
 .apple::after {
   content: "\f179";
-  padding: 30px 23px; 
+  padding: 30px 23px;
   color: #3887ED;
   font-family: "FontAwesome";
   font-size: 32px;
@@ -511,15 +610,15 @@ footer p {
 }
 
 
- /*=================================
+/*=================================
   footer styling ends here
-=================================*/ 
+=================================*/
 
 /*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (min-width: 769px) {
 
-  .download-btn:hover, 
+  .download-btn:hover,
   .subscribe-btn:hover {
     background-color: #366baf;
     transition: all 0.5s linear;
@@ -532,10 +631,10 @@ footer p {
 
   .group-image:hover { transform: scale(1.1); }
 
-  .keep-it-simple-img:hover, 
+  .keep-it-simple-img:hover,
   .pixel-perfect-img:hover,
-  .beautiful-design-img:hover { 
-    transform: translateY(-175px); 
+  .beautiful-design-img:hover {
+    transform: translateY(-175px);
   }
 
   .slide:hover { border: 3px solid #3887ED; }
@@ -553,7 +652,7 @@ footer p {
     transition: all 0.5s linear;
   }
 
-  .facebook:hover::after, 
+  .facebook:hover::after,
   .twitter:hover::after,
   .linkedin:hover::after,
   .apple:hover::after {
@@ -562,4 +661,4 @@ footer p {
     transform: scale(1.2);
   }
 
-}  
+}
